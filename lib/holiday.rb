@@ -1,22 +1,21 @@
 require 'pry'
 
 def second_supply_for_fourth_of_july(holiday_hash)
-   given that holiday_hash looks like this:
-   {
-     :winter => {
-      :christmas => ["Lights", "Wreath"],
-       :new_years => ["Party Hats"]
-     },
-    :summer => {
-       :fourth_of_july => ["Fireworks", "BBQ"]
-     },
-    :fall => {
-       :thanksgiving => ["Turkey"]
-     },
-     :spring => {
-      :memorial_day => ["BBQ"]
-     }
-   }
+  # given that holiday_hash looks like this:
+   #{
+  #   :winter => {
+  #    :christmas => ["Lights", "Wreath"],
+  #     :new_years => ["Party Hats"]
+  #   },
+  #  :summer => {
+  #     :fourth_of_july => ["Fireworks", "BBQ"]
+  #   },
+  #     :thanksgiving => ["Turkey"]
+  #   },
+  #   :spring => {
+  #    :memorial_day => ["BBQ"]
+  #   }
+  # }
 
 
 def second_supply_for_fourth_of_july(holiday_supplies)
@@ -77,9 +76,9 @@ def all_holidays_with_bbq(holiday_hash)
   # rholiday_hash.map do |season, holiday|
     holiday.map do |holiday, item|
       holiday if item.include?("BBQ")
-    end 
+    end
   end.flatten.compact
-  
+
   # include the string "BBQ"
 
 end
