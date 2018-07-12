@@ -22,6 +22,7 @@ def second_supply_for_fourth_of_july(holiday_supplies)
 holiday_supplies[:summer][:fourth_of_july][1]
   # return the second element in the 4th of July array
 end
+end
 second_supply_for_fourth_of_july(holiday_supplies)
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
@@ -84,4 +85,3 @@ def all_holidays_with_bbq(holiday_hash)
 end
 all_holidays_with_bbq(holiday_supplies)
 end
-
