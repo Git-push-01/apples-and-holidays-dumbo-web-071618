@@ -1,3 +1,6 @@
+require 'pry'
+
+
 holiday_supplies = {
   :winter => {
     :christmas => ["Lights", "Wreath"],
